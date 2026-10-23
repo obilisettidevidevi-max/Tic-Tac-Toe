@@ -1,0 +1,100 @@
+body {
+    background-color:lavender;
+    font-family: "Trebuchet MS", sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.game-title {
+      font-family:"Trebuchet MS",sans-serif;
+      font-size:50px;
+      font-weight:bold;
+      text-align:center;
+      margin-bottom:25px;
+}
+
+h1{
+
+  font-size:50px;
+  margin-bottom:25px;
+  background:linear-gradient(to right,pink,purple,blue,orange);
+  background-clip:text;
+  -webkit-text-fill-color:transparent;
+
+}
+
+
+#Startgame {
+    background-color: purple;
+    color: white;
+    font-size: 18px;
+    border-radius: 12px;
+    padding:12px 25px;
+    display:block;
+    margin:20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#startGame:hover {
+    background-color: darkviolet;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 8px;
+    justify-content: center;
+    margin:0;
+    padding: 10px;
+    background-color:darkslateblue;
+    border-radius: 15px;
+    width: fit-content;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #F8F5FF;
+    border: none;
+    border-radius: 10px;
+    font-size: 45px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#Restartgame {
+    background-color:purple;
+    color: white;
+    font-size: 18px;
+    border-radius:12px;
+    padding:12px 25px;
+    display:block;
+    margin:20px auto;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+#restartgame:hover{
+    background-color:darkviolet
+}
+
+
+#message {
+    font-size: 20px;
+    font-weight: bold;
+    color: #5B3A8E;
+    margin-top: 20px;
+}
+
+.game-container{
+
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-items:center;
+        gap: 20px;
+        width:max-content;
+        margin:20px auto;
+
+}
